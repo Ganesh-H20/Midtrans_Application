@@ -15,13 +15,12 @@
 			<class name="script.TC01" />
 		</classes>
 	</test>
-	
-	<test name="TestFirefox">
+	<!-- <test name="TestFirefox">
 		<parameter name="browser" value="Firefox" />
 		<classes>
 			<class name="script.TC01" />
 		</classes>
-	</test>
+	</test> -->
 
 </suite> <!-- Suite -->
 

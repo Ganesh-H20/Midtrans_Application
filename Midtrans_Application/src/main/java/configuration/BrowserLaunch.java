@@ -1,5 +1,7 @@
 package configuration;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -54,6 +56,7 @@ public class BrowserLaunch {
 		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.MILLISECONDS);
 	}
 
+	
 	@AfterClass
 	public void tearDown() {
 
