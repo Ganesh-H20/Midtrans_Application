@@ -73,7 +73,7 @@ public class Functions {
 		ad.click(CreatePage.btnDone, "Done");
 	}
 
-	public void FCreditCardPayment() throws Exception {
+	/*public void FCreditCardPayment() throws Exception {
 
 		BrowserLaunch.childTest = BrowserLaunch.parentTest.createNode("Midtrans Application");
 		ad = new ActionDriver();
@@ -121,5 +121,5 @@ public class Functions {
 
 		// Successfully Done
 		ad.click(CreatePage.btnDone, "Done");
-	}
+	}*/
 }

@@ -23,6 +23,7 @@ public class CreatePage {
 
 	// OTP Details
 	public static By pass = By.xpath("//*[@id='PaRes']");
+	//public static By pass = By.id("PaRes");
 	public static By btnOk = By.name("ok");
 	public static By btnDone = By.linkText("Done");
 

@@ -13,9 +13,9 @@ public class TC01 extends BrowserLaunch {
 		fucs.SCreditCardPayment();
 	}
 
-	@Test(priority = 2)
+	/*@Test(priority = 2)
 	public void FailedCreditCardPayment() throws Exception {
 		Functions fucs = new Functions();
 		fucs.FCreditCardPayment();
-	}
+	}*/
 }
